@@ -1,0 +1,35 @@
+
+#BAE8F7
+#98CBDE
+#5EACAE
+
+pink #DDB9A9
+
+pink muda #F4E3DC
+#7D9999
+
+#947065
+
+abu abu #B3ABA4
+#CEC2B8
+kontak #dfd3c4
+.product .text p.price span.price-dc
+.product .text p.price span.price-sale {
+
+admin 
+biru #14147a 
+pink #DFBEAE    #DDB9A9
+#4535b7 ungu
+
+abu#DFD4CD
+
+dashboard #ccb49f  .bg-primary {
+card #F6E7D8   .card {
+ringkasan  #4A403A   .bg-default {
+
+#ad8377 
+#9b817a
+#877070
+#ddb9a9
+
+#b3aba4

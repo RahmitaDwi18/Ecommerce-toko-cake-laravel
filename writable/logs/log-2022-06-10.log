@@ -1,0 +1,16 @@
+CRITICAL - 2022-06-10 09:48:35 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\tubes\Toko Lotus Cake\app\Controllers\Shop.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\tubes\Toko Lotus Cake\system\CodeIgniter.php(832): App\Controllers\Shop->product('9', 'AB450163')
+#2 C:\xampp\htdocs\tubes\Toko Lotus Cake\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\xampp\htdocs\tubes\Toko Lotus Cake\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tubes\Toko Lotus Cake\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tubes\Toko Lotus Cake\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-10 09:49:04 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\tubes\Toko Lotus Cake\app\Controllers\Shop.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\tubes\Toko Lotus Cake\system\CodeIgniter.php(832): App\Controllers\Shop->product('9', 'AB450163')
+#2 C:\xampp\htdocs\tubes\Toko Lotus Cake\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\xampp\htdocs\tubes\Toko Lotus Cake\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tubes\Toko Lotus Cake\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tubes\Toko Lotus Cake\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

@@ -1,0 +1,78 @@
+CRITICAL - 2022-06-03 00:48:50 --> number_format(): Passing null to parameter #1 ($num) of type float is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'number_format()...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\tubes\tokoku\app\Helpers\global_helper.php(29): number_format(NULL, 2, ',', '.')
+#2 C:\xampp\htdocs\tubes\tokoku\app\Views\admin\orders\orders.php(63): format_rupiah(NULL)
+#3 C:\xampp\htdocs\tubes\tokoku\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\tubes\tokoku\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\tubes\tokoku\system\Common.php(1089): CodeIgniter\View\View->render('admin/orders/or...', Array, true)
+#6 C:\xampp\htdocs\tubes\tokoku\app\Controllers\Admin_Orders.php(31): view('admin/orders/or...', Array)
+#7 C:\xampp\htdocs\tubes\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Orders->index()
+#8 C:\xampp\htdocs\tubes\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Orders))
+#9 C:\xampp\htdocs\tubes\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tubes\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\tubes\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-06-03 00:48:58 --> number_format(): Passing null to parameter #1 ($num) of type float is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'number_format()...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\tubes\tokoku\app\Helpers\global_helper.php(29): number_format(NULL, 2, ',', '.')
+#2 C:\xampp\htdocs\tubes\tokoku\app\Views\admin\orders\orders.php(63): format_rupiah(NULL)
+#3 C:\xampp\htdocs\tubes\tokoku\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\tubes\tokoku\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\tubes\tokoku\system\Common.php(1089): CodeIgniter\View\View->render('admin/orders/or...', Array, true)
+#6 C:\xampp\htdocs\tubes\tokoku\app\Controllers\Admin_Orders.php(31): view('admin/orders/or...', Array)
+#7 C:\xampp\htdocs\tubes\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Orders->index()
+#8 C:\xampp\htdocs\tubes\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Orders))
+#9 C:\xampp\htdocs\tubes\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tubes\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\tubes\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-06-03 00:56:37 --> Invalid file: themes\lotuscake\home.php
+#0 C:\xampp\htdocs\tubes\tokoku\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes\\lotuscak...')
+#1 C:\xampp\htdocs\tubes\tokoku\system\Common.php(1089): CodeIgniter\View\View->render('themes\\lotuscak...', Array, true)
+#2 C:\xampp\htdocs\tubes\tokoku\app\Controllers\Home.php(34): view('themes\\lotuscak...', Array)
+#3 C:\xampp\htdocs\tubes\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\tubes\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\tubes\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tubes\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tubes\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-03 01:28:35 --> Invalid file: themes\lotuscake\home.php
+#0 C:\xampp\htdocs\tubes\tokoku\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes\\lotuscak...')
+#1 C:\xampp\htdocs\tubes\tokoku\system\Common.php(1089): CodeIgniter\View\View->render('themes\\lotuscak...', Array, true)
+#2 C:\xampp\htdocs\tubes\tokoku\app\Controllers\Home.php(34): view('themes\\lotuscak...', Array)
+#3 C:\xampp\htdocs\tubes\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\tubes\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\tubes\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tubes\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tubes\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-03 01:28:38 --> Invalid file: themes\lotuscake\home.php
+#0 C:\xampp\htdocs\tubes\tokoku\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes\\lotuscak...')
+#1 C:\xampp\htdocs\tubes\tokoku\system\Common.php(1089): CodeIgniter\View\View->render('themes\\lotuscak...', Array, true)
+#2 C:\xampp\htdocs\tubes\tokoku\app\Controllers\Home.php(34): view('themes\\lotuscak...', Array)
+#3 C:\xampp\htdocs\tubes\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\tubes\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\tubes\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tubes\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tubes\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-03 01:28:41 --> Invalid file: themes\lotuscake\pages\about.php
+#0 C:\xampp\htdocs\tubes\tokoku\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes\\lotuscak...')
+#1 C:\xampp\htdocs\tubes\tokoku\system\Common.php(1089): CodeIgniter\View\View->render('themes\\lotuscak...', Array, true)
+#2 C:\xampp\htdocs\tubes\tokoku\app\Controllers\Pages.php(26): view('themes\\lotuscak...', Array)
+#3 C:\xampp\htdocs\tubes\tokoku\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#4 C:\xampp\htdocs\tubes\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\tubes\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tubes\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tubes\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-03 01:28:44 --> Invalid file: themes\lotuscake\pages\about.php
+#0 C:\xampp\htdocs\tubes\tokoku\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes\\lotuscak...')
+#1 C:\xampp\htdocs\tubes\tokoku\system\Common.php(1089): CodeIgniter\View\View->render('themes\\lotuscak...', Array, true)
+#2 C:\xampp\htdocs\tubes\tokoku\app\Controllers\Pages.php(26): view('themes\\lotuscak...', Array)
+#3 C:\xampp\htdocs\tubes\tokoku\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#4 C:\xampp\htdocs\tubes\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\tubes\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tubes\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tubes\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
